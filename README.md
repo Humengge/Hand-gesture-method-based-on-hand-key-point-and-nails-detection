@@ -1,7 +1,7 @@
 # Hand-gesture-method-based-on-hand-key-point-and-nails-detection
 
 ## Introduction
-======================
+----------------------
 The main task of this project is to deal with several types of difficult samples during fingertip segmentation for touchless fingerprint recognition, such as distinguishing between inner fingers and nail caps, the degree of tightness between fingers, etc. The project simulates the architecture of a cascade system and designs a series of filters to filter the error samples. Due to some of the limitations of publicly available databases, the database for this project is made up of individually collected data and publicly available data together and merged into a new database. By constructing multiple neural networks as a framework for the filters, the categories of hands in photographs are trained, classified and output.
 
 **The database of nail detection and hand gesture should be made by yourself.**
