@@ -1,0 +1,1 @@
+# Hand-gesture-method-based-on-hand-key-point-and-nails-detection
