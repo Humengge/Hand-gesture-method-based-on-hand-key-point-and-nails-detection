@@ -2,11 +2,10 @@
 
 ## Introduction
 ======================
+Themaintaskofthisprojectistodealwithseveraltypesofdifficultsamplesduringfingertipsegmentation for touchless fingerprint recognition, such as distinguishing between innerfingers and nail caps, the degree of tightness between fingers, etc. The project simulatesthe architecture of a cascade system and designs a series of filters to filter the error sam­ples. Due to some of the limitations of publicly available databases, the database for thisproject is made up of individually collected data and publicly available data together andmerged into a new database. By constructing multiple neural networks as a frameworkfor the filters, the categories of hands in photographs are trained, classified and output.
 
 
-The database of nail detection should be made by yourself.
-
-The database of hand gesture also should be made by yourself.
+**The database of nail detection and hand gesture should be made by yourself.**
 
 **Before you run the project, you need to change the path value and build up several folders according the codes.**
 
@@ -18,7 +17,7 @@ The database of hand gesture also should be made by yourself.
         make qt5py3
         python labelImg.py
 
-Then you can mark your own nail database and save the marked xml file into 'Annotations' folder. 'ImageSets' foldee saves the file names of test set, training set and validation set. You also need to download the VGG model. Then use the SSD model to train the dataset. 
+Then you can mark your own nail database and save the marked xml file into 'Annotations' folder. 'ImageSets' foldee saves the file names of test set, training set and validation set. Then use the SSD model to train the dataset. 
 
         python SSD-Tensorflow-master/train_ssd_network.py
 
@@ -32,5 +31,5 @@ Then you can mark your own nail database and save the marked xml file into 'Anno
 
 ### Classify the hand gesture for the touchless fingerprint datection
 ----------------------
-
+The final dataset, connecting the number of nails, 21 kye points and label, is 'finalData.csv' which is made by 'finalInput.py'. Run the file 'training.ipynb' to train the data via four different models with cross validation. The final choosen model is the MLPC with 20 fold dross validation, named 'model_MLPC2_20Fold.m', which can be used directly to classify the hand position.
 
