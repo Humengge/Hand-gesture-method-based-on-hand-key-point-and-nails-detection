@@ -21,7 +21,7 @@ Then you can mark your own nail database and save the marked xml file into 'Anno
 
         python SSD-Tensorflow-master/train_ssd_network.py
 
-- If you don't want to train by yourself, then you can just use the model 'model.ckpt-7246' which has already trained in 'nail_model' folder. Run the file 'ssd_nodebook.ipynb' to show the number of nails.
+- If you don't want to train by yourself, then you can just use the model [model.ckpt-7246](https://drive.google.com/drive/folders/1y6PYxfgHO4YOOAjF1XKzuU-DzhTnzd-O?usp=sharing) in Google Drive which has already trained in 'nail_model' folder. Run the file 'ssd_nodebook.ipynb' to show the number of nails.
 
 
 ### Hand Keypoint Detection
