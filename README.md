@@ -32,3 +32,5 @@ Then you can mark your own nail database and save the marked xml file into 'Anno
 ----------------------
 The final dataset, connecting the number of nails, 21 kye points and label, is 'finalData.csv' which is made by 'finalInput.py'. Run the file 'training.ipynb' to train the data via four different models with cross validation. The final choosen model is the MLPC with 20 fold dross validation, named 'model_MLPC2_20Fold.m', which can be used directly to classify the hand position.
 
+
+The validation vedio is in [YouTube](https://www.youtube.com/watch?v=FQgiP8Pt82U).
